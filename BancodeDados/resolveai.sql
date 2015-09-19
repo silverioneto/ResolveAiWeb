@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 19-Set-2015 às 21:12
+-- Generation Time: 19-Set-2015 às 21:50
 -- Versão do servidor: 5.6.26
 -- PHP Version: 5.6.12
 
@@ -64,8 +64,16 @@ CREATE TABLE IF NOT EXISTS `funcionario` (
   `encrypted_password` varchar(80) NOT NULL,
   `acesso_total` char(1) DEFAULT NULL,
   `email_func` varchar(30) DEFAULT NULL,
-  `ultimo_acesso` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `ultimo_acesso` timestamp NULL DEFAULT NULL,
+  `salt` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `funcionario`
+--
+
+INSERT INTO `funcionario` (`_id`, `nome_func`, `login_func`, `encrypted_password`, `acesso_total`, `email_func`, `ultimo_acesso`, `salt`) VALUES
+(1, 'Silvério Neto', 'netores', 'H44IsUJpXo0rwHeFFlyA92DqZLE1MDRjNDBkNGU5', '1', 'netores1@gmail.com', NULL, '504c40d4e9');
 
 -- --------------------------------------------------------
 
@@ -201,7 +209,7 @@ ALTER TABLE `cliente`
 -- AUTO_INCREMENT for table `funcionario`
 --
 ALTER TABLE `funcionario`
-  MODIFY `_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `ticket`
 --
