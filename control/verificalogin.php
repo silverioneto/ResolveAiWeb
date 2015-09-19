@@ -8,12 +8,14 @@
 
   	echo $verificaLogin;
 
-  	if($verificaLogin == '1'){  
+  	if($verificaLogin !=0){  
   		session_start();	
   		$_SESSION['logado'] = true;
+  		$_SESSION['idfuncionario'] = $verificaLogin;
   	}else{
   		session_start();
   		session_unset('logado');
+  		session_unset('idfuncionario');
   		session_destroy();
   	}
  
