@@ -12,16 +12,16 @@
     <title>Resolve Aí - Painel Administrativo</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="config/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../config/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="config/css/sb-admin.css" rel="stylesheet">
+    <link href="../config/css/sb-admin.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="config/css/plugins/morris.css" rel="stylesheet">
+    <link href="../config/css/plugins/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="config/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../config/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,16 +75,16 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-user"></i> Funcionários <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="/funcionarios/cadastro.php">Cadastrar</a>
+                                <a href="/resolveaiweb/admin/funcionarios/cadastro.php">Cadastrar</a>
                             </li>
                             <li>
-                                <a href="/funcionarios/buscar.php">Pesquisar</a>
+                                <a href="/resolveaiweb/admin/funcionarios/buscar.php">Pesquisar</a>
                             </li>
                             <li>
-                                <a href="/funcionarios/alterar.php">Alterar</a>
+                                <a href="/resolveaiweb/admin/funcionarios/alterar.php">Alterar</a>
                             </li>
                             <li>
-                                <a href="/funcionarios/desativar.php">Desativar</a>
+                                <a href="/resolveaiweb/admin/funcionarios/desativar.php">Desativar</a>
                             </li>
                         </ul>
                     </li>
@@ -113,6 +113,36 @@
 
                 <!-- Page Heading -->
                 <div class="row">
+                <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Buscar</legend>
+
+
+<!-- Search input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="searchinput">E-mail</label>
+  <div class="col-md-4">
+    <input name="searchinput" class="form-control input-md" id="searchinput" required="" type="search" placeholder="E-mail">
+    <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-search"></span> </a>
+    
+  </div>
+</div>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Cadastrar"></label>
+  <div class="col-md-4">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-primary">Buscar</button>
+    <a href="#" class="btn btn-primary btn-warning">Cancelar</a>
+    <a href="#" class="btn btn-primary btn-danger">Limpar</a>
+  </div>
+</div>
+
+</fieldset>
+</form>
                
                 </div>
                 <!-- /.row -->
@@ -127,15 +157,15 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="config/js/jquery.js"></script>
+    <script src="../config/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="config/js/bootstrap.min.js"></script>
+    <script src="../config/js/bootstrap.min.js"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="config/js/plugins/morris/raphael.min.js"></script>
-    <script src="config/js/plugins/morris/morris.min.js"></script>
-    <script src="config/js/plugins/morris/morris-data.js"></script>
+    <script src="../config/js/plugins/morris/raphael.min.js"></script>
+    <script src="../config/js/plugins/morris/morris.min.js"></script>
+    <script src="../config/js/plugins/morris/morris-data.js"></script>
 
 </body>
 
