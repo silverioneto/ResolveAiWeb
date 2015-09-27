@@ -90,12 +90,12 @@
                     </li>
 
                     <li>
-                        <a a href="#"><i class="fa fa-table"></i> Agenda </a>
+                        <a a href="/resolveaiweb/admin/agenda/agendar.php"><i class="fa fa-table"></i> Agenda </a>
                         
                     </li>
 
                   <li>
-                        <a a href="#"><i class="fa fa-wrench"></i> Ordem de Serviço </a>
+                         <a a href="/resolveaiweb/admin/os/os.php"><i class="fa fa-wrench"></i> Ordem de Serviço </a>
                         
                     </li>    
 

@@ -90,12 +90,12 @@
                     </li>
 
                     <li>
-                        <a a href="#"><i class="fa fa-table"></i> Agenda </a>
+                        <a a href="/agenda/agendar.php"><i class="fa fa-table"></i> Agenda </a>
                         
                     </li>
 
                   <li>
-                        <a a href="#"><i class="fa fa-wrench"></i> Ordem de Serviço </a>
+                         <a a href="s/os/os.php"><i class="fa fa-wrench"></i> Ordem de Serviço </a>
                         
                     </li>    
 

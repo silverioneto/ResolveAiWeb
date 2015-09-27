@@ -117,64 +117,15 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend>Alterar Dados Funcionário</legend>
-<!-- Search input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="searchinput">E-mail</label>
-  <div class="col-md-4">
-    <input name="searchinput" class="form-control input-md" id="searchinput" required="" type="search" placeholder="E-mail">
-    <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-search"></span> </a>
-    
-  </div>
-</div>
-
+<legend>AGENDAMENTO</legend>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Nome">Nome</label>  
+  <label class="col-md-4 control-label" for="textinput">OS</label>  
   <div class="col-md-4">
-  <input id="Nome" name="Nome" type="text" placeholder="Nome" class="form-control input-md">
+  <input name="textinput" type="text" required="" class="form-control input-md" id="textinput" placeholder="OS" value="">
+  <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-search"></span> </a>
     
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="login">Login</label>  
-  <div class="col-md-4">
-  <input id="login" name="login" type="text" placeholder="login" class="form-control input-md">
-    
-  </div>
-</div>
-
-<!-- Password input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="senha">Senha</label>
-  <div class="col-md-4">
-    <input id="senha" name="senha" type="password" placeholder="senha" class="form-control input-md">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="Email">Email</label>  
-  <div class="col-md-4">
-  <input id="Email" name="Email" type="text" placeholder="email" class="form-control input-md" required="">
-    
-  </div>
-</div>
-
-<!-- Multiple Checkboxes -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="checkboxes">Administrador</label>
-  <div class="col-md-4">
-  <div class="checkbox">
-    <label for="checkboxes-0">
-      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
-      Admin
-    </label>
-	</div>
   </div>
 </div>
 
@@ -182,7 +133,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="Cadastrar"></label>
   <div class="col-md-4">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-primary">Alterar</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-primary">Buscar</button>
     <a href="#" class="btn btn-primary btn-warning">Cancelar</a>
     <a href="#" class="btn btn-primary btn-danger">Limpar</a>
   </div>
@@ -190,6 +141,7 @@
 
 </fieldset>
 </form>
+
                
                 </div>
                 <!-- /.row -->
